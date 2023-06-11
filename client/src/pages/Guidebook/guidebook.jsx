@@ -7,7 +7,7 @@ import guide6 from "../../assets/image/guide6.jpg"
 
 function GuideBook(){
     return (
-        <div className="grid justify-center">
+        <div className="grid justify-center lg:mt-20">
             <div className="grid justify-center row-span-1">
             <p className="text-blue-800  md:text-4xl lg:text-6xl font-bold">Unlock Your Creativity: <span className="text-blue-950"> 3D</span><br/>
             <span className="text-blue-950 grid justify-center">T-Shirt Mastery</span></p>
@@ -15,7 +15,7 @@ function GuideBook(){
             <div className="flex justify-center mt-auto ease-in-out duration-200">
                 <img src={guide}/>
             </div>
-            <img src={guide1} className="animate-spin ml-auto hidden lg:block -mr-30 mt-[-620px]"/>
+            <img src={guide1} className="animate-spin-slow ml-auto hidden lg:block -mr-30 mt-[-620px]"/>
 
             <div className="grid justify-center mt-10">
                 <p className="text-blue-950  md:text-4xl lg:text-6xl font-bold items-center">Mastering 3D T-Shirt Design: <br/>
